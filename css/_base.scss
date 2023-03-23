@@ -1,0 +1,48 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--mc-theme-background);
+
+  color: var(--mc-theme-text);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px !important;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: var(--mc-scale-4) !important;
+  font-weight: 400;
+  line-height: var(--mc-lh-body);
+  text-rendering: optimizelegibility;
+
+  font-feature-settings: none;
+  font-variant-ligatures: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --playback-logo-image: url('img/logo.svg');
+}
+
+::selection {
+  background: hsla(218deg, 8%, 61%, 30%);
+}
+
+::selection {
+  background: hsla(218deg, 8%, 61%, 30%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  cursor: pointer;
+}
